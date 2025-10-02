@@ -4,7 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
-    
+    border-bottom: 1px solid #393474;
 }
 header div{
     float: left;
@@ -89,10 +89,10 @@ body{
     width: 94%;
 }
 .leftFoot{
-float: left;
+    float: left;
 }
 .rightFoot{
-float: right;
+    float: right;
 }
 .rightFoot ul{
     list-style: none;
@@ -102,7 +102,7 @@ float: right;
     margin-right: 10px;
 }
 footer{
-    margin-top: 1em;
+    margin-top: 1.5em;
     padding-top: 1.5em;
     height: 2em;
     border-top: 1px solid #393474;

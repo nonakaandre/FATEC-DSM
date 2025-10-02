@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    padding: 0.5em 1em;
+    background-color: #0C0B1A;
+    color: #eee;
+}
+.mainContent h1{
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+.mainContent{
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+.mainContent p{
+    font-size: 1.2em;
+    width: 70%;
+    margin: 0 auto;
+    color: #888;
+}
+footer{
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    height: 2em;
+    border-top: 1px solid #393474;
+}
