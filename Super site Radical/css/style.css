@@ -4,13 +4,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    padding: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0.5em 0.2em;
     background-color: #181442;
     color: #eee;
 }
 header{
     margin: 0.2em;
-    padding: 0.5em;
+    padding: 1em 0.5em;
 }
 div.topo{
 width: 100%;
@@ -27,8 +30,7 @@ div img{
 .topico ul {
     display: flex;
     list-style: none;
-    padding-top: 4em;
-    padding-right: 1.5em;
+    padding-top: 2em;
     margin: auto;
     gap: 20px;  
     }
@@ -48,14 +50,42 @@ nav li :hover {
     background: rgb(35, 164, 187);
     color: #eee;
 }
-section{
+main{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 2em;
     width: 100%;
-    height: 80px;
-    justify-content: start;
-    align-items: center;
     text-align: center;
+}    
+.secao ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 2em;
+    gap: 20px;  
+    }
+.descricao {
+    width: 60%;
+    margin: auto;
+    padding: 0.5;
+    background-color: #000f53;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.jogo img{
+    width: 20em;
+    padding: 2em;
+   
+}
+section .jogo{
+    margin: 2em 0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
 
+   
+}
