@@ -7,21 +7,22 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 0.5em 0.2em;
+    margin: 0;
+    padding: 0;
     background-color: #181442;
     color: #eee;
 }
 header{
-    margin: 0.2em;
-    padding: 1em 0.5em;
+border:2px solid #0c0a20;
+border-radius: 5px;
+background-color: #110d2b;
 }
 div.topo{
 width: 100%;
 display: flex;
+align-items: center;
 justify-content: space-between;
-border:2px solid #0c0a20;
-border-radius: 5px;
-background-color: #110d2b;
+
 }
 div img{
     width: 20em;
@@ -30,25 +31,21 @@ div img{
 .topico ul {
     display: flex;
     list-style: none;
-    padding-top: 2em;
+    
     margin: auto;
     gap: 20px;  
-    }
-nav a{
-    text-decoration: none;
-    color: white;
 }
-nav li{
-    border: 1px solid #3b30b1;
-    padding: 5px 10px;
-    border-radius: 8px;
-    color: rgb(35, 164, 187);
-    transition: 0.3s;
-    
-    }
-nav li :hover {
-    background: rgb(35, 164, 187);
-    color: #eee;
+.busca{
+    margin: auto;
+}
+nav a{
+    color: #ffa500;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 3ms;    
+}
+nav a:hover{
+    color: #e65000;
 }
 main{
     display: flex;
@@ -74,18 +71,31 @@ main{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .jogo img{
-    width: 20em;
+    width: 30em;
     padding: 2em;
-   
 }
-section .jogo{
-    margin: 2em 0;
+#btnVoltarTopo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #63605c;
+    color: #eee;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 99;
+    scroll-behavior: smooth;
+}
+#btnVoltarTopo:hover{
+    background-color: #e65000;
+}
+.hidden {
+    display: none;
 }
 footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 2em;
-
-   
+    padding: 2em;   
 }
