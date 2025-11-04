@@ -3,10 +3,37 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header, footer{
+    display: flex;
+    justify-content: space-between;
+}
+header ul, footer ul{
+    list-style: none;
+    display: flex;
+}
+header nav{
+    align-content: center;
+}
+header ul li, footer ul li{
+    margin-right: 0.5em;
+}
+header ul a{
+    text-decoration: none;
+    color: #eee;
+}
+header{
+    border-bottom: 1px solid #393474;
+}
 body{
     padding: 0.5em 1em;
     background-color: #0C0B1A;
     color: #eee;
+}
+footer{
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    height: 2em;
+    border-top: 1px solid #393474;
 }
 .mainContent h1{
     font-size: 4em;
@@ -23,9 +50,32 @@ body{
     margin: 0 auto;
     color: #888;
 }
-footer{
-    margin-top: 1.5em;
-    padding-top: 1.5em;
-    height: 2em;
-    border-top: 1px solid #393474;
+.cardList{
+    display: flex;
+}
+.fullCard{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin: 0.5em 0.5em;
+    border: 1px solid #393474;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+.fullCard img{
+    width: 100%;
+}
+.cardHeader p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.cardBody p{
+    text-align: justify;
+}
+.cardFooter{
+    text-align: right;
+}
+.cardFooter a{
+    color: #EEE;
+    text-decoration: none;
 }

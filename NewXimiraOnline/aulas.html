@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/estiloFlex.css">
     </head>
-    <body>
+    <body onload="vincularEvento();">
         <header>
             <div>
                 <img src="images/logo_small.png" alt="Logo do ximira!">
@@ -22,12 +22,13 @@
             <div class="mainContent">
                 <h1>Ensinando por parábolas!</h1>
                 <p>Ximira passa seus ensinamentos pelas atribulações de sua vida, aprenda com Ximira olhando para suas histórias!</p>
+                <a href="javascript:;" id="esconderCards">Esconder tudo!</a>
             </div>
             <section class="cardList">
                 <div class="fullCard">
                     <div class="cardHeader">
                         <p>Ximira vs Conan</p>
-                        <img src="images/ximira_vs_conan_banner.png" alt="Ximira e Conan">
+                        <img src="imagens/conan vs ximira corte.jpeg" alt="Ximira e Conan">
                     </div>
                     <div class="cardBody">
                         <p>Em uma era esquecida, onde a magia e o aço governavam, o grande professor Ximira enfrentou Conan, o Bárbaro, em um duelo épico que entraria para a história. Ximira, conhecido por sua sabedoria e poderes arcanos, desafiou o musculoso guerreiro cimério, cuja fama de invencível ecoava pelos quatro cantos do mundo.</p>
@@ -40,7 +41,7 @@
                <div class="fullCard">
                     <div class="cardHeader">
                         <p>Ximira e o dançarino maravilhoso</p>
-                        <img src="images/ximira_asdrubal_banner.png" alt="Ximira e Conan">
+                        <img src="imagens/dançarino banner.jpeg" alt="Ximira e Conan">
                     </div>
                     <div class="cardBody">
                         <p>Era o auge dos anos 70, uma época de mudanças e revoluções. Em meio a tudo isso, duas figuras se destacavam: o grande professor Ximira e o grande dançarino Asdrubal.</p>
@@ -49,6 +50,21 @@
                         <a href="#">Leia o resto</a>
                     </div>
                 </div>
+
+
+               <div class="fullCard">
+                    <div class="cardHeader">
+                        <p>Ximira contra a Nintendo</p>
+                        <img src="imagens/nintendo_banner.jpeg" alt="Ximira e Nintendo">
+                    </div>
+                    <div class="cardBody">
+                        <p>Era uma vez, o grande professor Ximira, conhecido por sua sabedoria e conhecimento vasto. Ele era respeitado em toda a cidade por sua habilidade de resolver os problemas mais complexos.</p>
+                    </div>
+                    <div class="cardFooter">
+                        <a href="#">Leia o resto</a>
+                    </div>
+                </div>
+
 
             </section>
         </main>
@@ -76,5 +92,6 @@
                 </ul>
             </div>
         </footer>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
